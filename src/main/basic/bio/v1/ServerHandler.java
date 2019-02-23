@@ -1,4 +1,4 @@
-package main.basic.bio;
+package main.basic.bio.v1;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -30,8 +30,8 @@ public class ServerHandler implements Runnable {
 				if (req == null) {
 					break;
 				}
-
-				String resp = "Im message from server,your req is" + req ;
+				
+				String resp = "Im message from server,your req is" + req;
 				// send response message
 				out.println(resp);
 			}

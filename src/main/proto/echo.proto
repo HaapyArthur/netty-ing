@@ -1,0 +1,14 @@
+option java_package="basic.dtos";
+option java_outer_classname="Echos";
+
+message EchoRequest {
+      required string message = 1;
+      optional string email = 2;
+
+};
+
+message EchoResponse {
+      required string message = 1;
+      optional string email = 2;
+
+};

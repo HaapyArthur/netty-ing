@@ -80,6 +80,25 @@
             <artifactId>wstx-asl</artifactId>
             <version>3.2.9</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.google.protobuf</groupId>
+            <artifactId>protobuf-java</artifactId>
+            <version>2.6.1</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.baidu/jprotobuf -->
+        <dependency>
+            <groupId>com.baidu</groupId>
+            <artifactId>jprotobuf</artifactId>
+            <version>2.2.8</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.baidu/jprotobuf-precompile-plugin -->
+        <dependency>
+            <groupId>com.baidu</groupId>
+            <artifactId>jprotobuf-precompile-plugin</artifactId>
+            <version>2.0.7</version>
+        </dependency>
         <dependency>
             <groupId>org.jibx</groupId>
             <artifactId>jibx-bind</artifactId>
